@@ -18,6 +18,12 @@ namespace Demo1
             Console.WriteLine("What is your favorite color");
             // declare a string variable to hold the user input for the color
             string color = Console.ReadLine();
+
+            //print out some comfirm message
+            Console.WriteLine("Hello " + name + " your favorite color is " + color);
+
+            //stop the screen for user to see the result
+            Console.ReadLine();
         }
     }
 }
